@@ -12,10 +12,10 @@
 					<attribute id="IsLootable" type="bool" value="True" />
 					<attribute id="LadderLoopSpeed" type="float" value="3.75" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="26287685-17a9-443d-ab87-9d00f9fa7b3d" />
-					<attribute id="Name" type="LSString" value="BASE_Humans" />
+					<attribute id="MapKey" type="FixedString" value="bc08da5c-265f-4e9f-b405-8c77c70abd71" />
+					<attribute id="Name" type="LSString" value="AHZ_BASE_Changelings" />
 					<attribute id="ParentTemplateId" type="FixedString" value="5b60061e-df2d-4c4f-bfe3-2faf517d581d" />
-					<attribute id="Race" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba" />
+					<attribute id="Race" type="guid" value="82897816-11bd-44cc-8ce2-e4ebc85ba511" />
 					<attribute id="SpellSet" type="FixedString" value="CommonNPCActions" />
 					<attribute id="Stats" type="FixedString" value="Human_Commoner" />
 					<attribute id="Type" type="FixedString" value="character" />
@@ -54,9 +54,9 @@
 					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Male" />
 					<attribute id="Icon" type="FixedString" value="c0807a07-7e67-6f66-31d8-437c234a42e9-_(Icon_Human_Male)" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="acd7060a-43bd-4dc9-b050-9d9b2cf7b7df" />
-					<attribute id="Name" type="LSString" value="BASE_Humans_Male" />
-					<attribute id="ParentTemplateId" type="FixedString" value="26287685-17a9-443d-ab87-9d00f9fa7b3d" />
+					<attribute id="MapKey" type="FixedString" value="aa043e33-cc52-4049-b79e-df162cfcd7ef" />
+					<attribute id="Name" type="LSString" value="AHZ_BASE_Changelings_Male" />
+					<attribute id="ParentTemplateId" type="FixedString" value="bc08da5c-265f-4e9f-b405-8c77c70abd71" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725669" />
 					<children>
@@ -78,9 +78,9 @@
 					<attribute id="Icon" type="FixedString" value="08bd8ca8-bc6f-316c-14a0-618159fffe9d-_(Icon_Human_Female)" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="LightID" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="e87dd6f0-22f4-4cd5-914f-adddd2595941" />
-					<attribute id="Name" type="LSString" value="BASE_Humans_Female" />
-					<attribute id="ParentTemplateId" type="FixedString" value="26287685-17a9-443d-ab87-9d00f9fa7b3d" />
+					<attribute id="MapKey" type="FixedString" value="bc77542f-08bd-49ac-9fdb-5a1cc307032e" />
+					<attribute id="Name" type="LSString" value="AHZ_BASE_Changelings_Female" />
+					<attribute id="ParentTemplateId" type="FixedString" value="bc08da5c-265f-4e9f-b405-8c77c70abd71" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="VisualTemplate" type="FixedString" value="4b8ff439-0a98-6e6c-ad48-c695c1c29b27" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
@@ -96,14 +96,14 @@
 					</children>
 				</node>
 				<node id="GameObjects">
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="40b6c0b8-693d-3726-6819-acbc8481f208" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="15c0a109-361b-4fda-9b90-760f99912dcb" />
 					<attribute id="Faction" type="guid" value="6545a015-1b3d-66a4-6a0e-6ec62065cdb7" />
 					<attribute id="Flag" type="int32" value="0" />
 					<attribute id="Icon" type="FixedString" value="40b6c0b8-693d-3726-6819-acbc8481f208-_(Icon_Human_Male)" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="fd7f2707-8f86-4836-bda8-e0db99c389cc" />
-					<attribute id="Name" type="LSString" value="Humans_Male_Player" />
-					<attribute id="ParentTemplateId" type="FixedString" value="acd7060a-43bd-4dc9-b050-9d9b2cf7b7df" />
+					<attribute id="MapKey" type="FixedString" value="27b9fecb-74a1-4915-b4a9-e8e2e7d05d02" />
+					<attribute id="Name" type="LSString" value="AHZ_Changelings_Male_Player" />
+					<attribute id="ParentTemplateId" type="FixedString" value="aa043e33-cc52-4049-b79e-df162cfcd7ef" />
 					<attribute id="PortraitVisualResourceID" type="FixedString" value="71aaadda-22e0-f962-14ff-f57d57a2e726" />
 					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
 					<attribute id="Stats" type="FixedString" value="HeroHumanMale" />
@@ -138,16 +138,16 @@
 					</children>
 				</node>
 				<node id="GameObjects">
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="65508880-7afc-74cf-97eb-8d85c80b79b4" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="c078f8dc-b928-4dba-b229-37af6264d314" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h7fa26bbcgfc27g49d1g9176g83491cbaf4bf" version="1" />
 					<attribute id="Faction" type="guid" value="9fac6ec7-642b-3553-1bc8-6b8e0edae7d5" />
 					<attribute id="Flag" type="int32" value="0" />
 					<attribute id="Icon" type="FixedString" value="65508880-7afc-74cf-97eb-8d85c80b79b4-_(Icon_Human_Female)" />
 					<attribute id="IsPlayer" type="bool" value="False" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="df4aee69-40ea-480d-aa96-1abe82c28b66" />
-					<attribute id="Name" type="LSString" value="Humans_Female_Player" />
-					<attribute id="ParentTemplateId" type="FixedString" value="e87dd6f0-22f4-4cd5-914f-adddd2595941" />
+					<attribute id="MapKey" type="FixedString" value="a3c083e8-334b-4b49-a195-1eb4cecd1202" />
+					<attribute id="Name" type="LSString" value="AHZ_Changelings_Female_Player" />
+					<attribute id="ParentTemplateId" type="FixedString" value="bc77542f-08bd-49ac-9fdb-5a1cc307032e" />
 					<attribute id="PortraitVisualResourceID" type="FixedString" value="51214aaf-d81d-60f3-b7a6-28002ade0a6f" />
 					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
 					<attribute id="Stats" type="FixedString" value="HeroHumanFemale" />
