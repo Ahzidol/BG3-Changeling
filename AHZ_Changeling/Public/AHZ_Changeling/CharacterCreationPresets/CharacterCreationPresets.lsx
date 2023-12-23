@@ -4,26 +4,28 @@
     <region id="CharacterCreationPresets">
         <node id="root">
             <children>
+                <!-- Male -->
                 <node id="CharacterCreationPreset">
                     <attribute id="BodyShape" type="uint8" value="0"/>
-                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="BodyType" type="uint8" value="0"/> <!-- Masculine -->
                     <attribute id="CloseUpA" type="LSString" value="HUM_M_Camera_Closeup_A"/>
                     <attribute id="CloseUpB" type="LSString" value="HUM_M_Camera_Closeup_B"/>
                     <attribute id="Overview" type="LSString" value="HUM_M_Camera_Overview_A"/>
-                    <attribute id="RaceUUID" type="guid" value="82897816-11bd-44cc-8ce2-e4ebc85ba511"/>
-                    <attribute id="RootTemplate" type="guid" value="27b9fecb-74a1-4915-b4a9-e8e2e7d05d02"/>
+                    <attribute id="RaceUUID" type="guid" value="82897816-11bd-44cc-8ce2-e4ebc85ba511"/> <!-- AHZ_Changeling -->
+                    <attribute id="RootTemplate" type="guid" value="27b9fecb-74a1-4915-b4a9-e8e2e7d05d02"/> <!-- AHZ_Changelings_Male_Player -->
                     <attribute id="SubRaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
                     <attribute id="UUID" type="guid" value="c9ed43bc-9897-4e58-b631-09a5827e3e82"/>
                     <attribute id="VOLinesTableUUID" type="guid" value="14df8f45-90af-4bd0-8024-42624da9976e"/>
                 </node>
+                <!-- Female -->
                 <node id="CharacterCreationPreset">
                     <attribute id="BodyShape" type="uint8" value="0"/>
-                    <attribute id="BodyType" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="1"/> <!-- Feminine -->
                     <attribute id="CloseUpA" type="LSString" value="HUM_F_Camera_Closeup_A"/>
                     <attribute id="CloseUpB" type="LSString" value="HUM_F_Camera_Closeup_B"/>
                     <attribute id="Overview" type="LSString" value="HUM_F_Camera_Overview_A"/>
-                    <attribute id="RaceUUID" type="guid" value="82897816-11bd-44cc-8ce2-e4ebc85ba511"/>
-                    <attribute id="RootTemplate" type="guid" value="a3c083e8-334b-4b49-a195-1eb4cecd1202"/>
+                    <attribute id="RaceUUID" type="guid" value="82897816-11bd-44cc-8ce2-e4ebc85ba511"/> <!-- AHZ_Changeling -->
+                    <attribute id="RootTemplate" type="guid" value="a3c083e8-334b-4b49-a195-1eb4cecd1202"/> <!-- AHZ_Changelings_Female_Player -->
                     <attribute id="SubRaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
                     <attribute id="UUID" type="guid" value="9da31301-8eb9-46f6-ae9f-99d09f71c536"/>
                     <attribute id="VOLinesTableUUID" type="guid" value="14df8f45-90af-4bd0-8024-42624da9976e"/>

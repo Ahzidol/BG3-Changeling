@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentList>
-	<content contentuid="hecb1a262g9057g4081g8bdag6a333c038faa" version="1">Changeling</content>
-	<content contentuid="hb1ac56ecg58dbg460dgac14g47c74eb37fc5" version="3">The most common face in Faerûn, humans are known for their tenacity, creativity, and endless capacity for growth.</content>
+	<!-- AHZ_Changeling Race -->
+	<content contentuid="hecb1a262g9057g4081g8bdag6a333c038faa" version="1">Changeling</content> <!-- Display Name-->
+	<content contentuid="hb1ac56ecg58dbg460dgac14g47c74eb37fc5" version="3">The most common face in Faerûn, humans are known for their tenacity, creativity, and endless capacity for growth.</content> <!-- Description -->
 </contentList>
