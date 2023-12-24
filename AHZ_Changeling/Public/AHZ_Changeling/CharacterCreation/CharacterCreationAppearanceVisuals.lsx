@@ -7,6 +7,16 @@
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="0"/>
                     <attribute id="BodyType" type="uint8" value="1"/>
+                    <attribute id="DefaultSkinColor" type="guid" value="95614cf0-a842-5e2f-fa17-4337769567e7"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h105447a3g64cfg4748gba8ag20484610a5a6" version="3"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="17bb5bd7-c25d-47fa-8371-0ab6fb8b7f75"/>
+                    <attribute id="VisualResource" type="guid" value="00f7561b-b7cb-60d5-c3ea-d20378dc8b77"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="BodyShape" type="uint8" value="0"/>
+                    <attribute id="BodyType" type="uint8" value="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="he916d104g824bg46adgb927g462877215731" version="2"/>
                     <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
                     <attribute id="SlotName" type="FixedString" value="Private Parts"/>
