@@ -1574,7 +1574,7 @@
 					<attribute id="ID" type="FixedString" value="3432aba5-adba-4c65-a6e1-a9e3827487e0" />
 					<attribute id="MaterialType" type="uint8" value="18" />
 					<attribute id="Name" type="LSString" value="AHZ_CHG_F1_Head" />
-					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_Skin_Orin_SSS_MSK_VT.lsf" />
+					<attribute id="SourceFile" type="LSString" value="Public/AHZ_Changeling/Assets/Materials/Characters/AHZ_CHAR_Skin_Orin_SSS_MSK_VT.lsf" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="ScalarParameters">
