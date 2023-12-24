@@ -606,7 +606,7 @@
 						<node id="Slots">
 							<attribute id="Bone" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="Head" />
-							<attribute id="VisualResource" type="FixedString" value="00f7561b-b7cb-60d5-c3ea-d20378dc8b77" />
+							<attribute id="VisualResource" type="FixedString" value="8d7f75dc-ecdb-4615-9f3f-f2f15cd9469e" />
 						</node>
 						<node id="Slots">
 							<attribute id="Bone" type="FixedString" value="" />

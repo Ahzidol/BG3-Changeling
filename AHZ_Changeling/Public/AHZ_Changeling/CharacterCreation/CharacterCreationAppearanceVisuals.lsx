@@ -9,10 +9,10 @@
                     <attribute id="BodyType" type="uint8" value="1"/>
                     <attribute id="DefaultSkinColor" type="guid" value="95614cf0-a842-5e2f-fa17-4337769567e7"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h105447a3g64cfg4748gba8ag20484610a5a6" version="3"/>
-                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RaceUUID" type="guid" value="82897816-11bd-44cc-8ce2-e4ebc85ba511"/>
                     <attribute id="SlotName" type="FixedString" value="Head"/>
-                    <attribute id="UUID" type="guid" value="17bb5bd7-c25d-47fa-8371-0ab6fb8b7f75"/>
-                    <attribute id="VisualResource" type="guid" value="00f7561b-b7cb-60d5-c3ea-d20378dc8b77"/>
+                    <attribute id="UUID" type="guid" value="e0fcb618-07f2-4a5a-b6a5-4d0cae4caa99"/>
+                    <attribute id="VisualResource" type="guid" value="8d7f75dc-ecdb-4615-9f3f-f2f15cd9469e"/>
                 </node>
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="0"/>
