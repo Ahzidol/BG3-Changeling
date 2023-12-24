@@ -1574,7 +1574,7 @@
 					<attribute id="ID" type="FixedString" value="3432aba5-adba-4c65-a6e1-a9e3827487e0" />
 					<attribute id="MaterialType" type="uint8" value="18" />
 					<attribute id="Name" type="LSString" value="AHZ_CHG_F1_Head" />
-					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_Skin_Head_v3.lsf" />
+					<attribute id="SourceFile" type="LSString" value="Public/AHZ_Changeling/Assets/Materials/Characters/AHZ_CHAR_Skin_Head_v3.lsf" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="ScalarParameters">
@@ -2311,6 +2311,117 @@
 							<attribute id="ParameterName" type="FixedString" value="TattooIntensity" />
 							<attribute id="Value" type="fvec4" value="0 0 0 0" />
 						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="WarpNoiseGeneric" />
+							<attribute id="ParameterName" type="FixedString" value="Tiling_Noise" />
+							<attribute id="Value" type="float" value="2" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="WarpNoiseGeneric" />
+							<attribute id="ParameterName" type="FixedString" value="Speed" />
+							<attribute id="Value" type="float" value="3" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0.03" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="WarpNoiseGeneric" />
+							<attribute id="ParameterName" type="FixedString" value="DistortStrength" />
+							<attribute id="Value" type="float" value="0.03" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0.8" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="WavesGradient" />
+							<attribute id="ParameterName" type="FixedString" value="MidPosition" />
+							<attribute id="Value" type="float" value="0.5" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0.8" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="WavesGradient" />
+							<attribute id="ParameterName" type="FixedString" value="MSK_Mix" />
+							<attribute id="Value" type="float" value="0.5" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="WarpNoiseGeneric" />
+							<attribute id="ID" type="FixedString" value="11fe798f-2f8d-491f-87e6-defe7853ce43" />
+							<attribute id="ParameterName" type="FixedString" value="DistortNoise" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="WarpNoiseGeneric" />
+							<attribute id="ID" type="FixedString" value="0512f492-675a-4904-9b53-fb75e5e82fb2" />
+							<attribute id="ParameterName" type="FixedString" value="MSK" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0.05910027 0 0.004809912" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="WavesGradient" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Color_Min" />
+							<attribute id="Value" type="fvec3" value="0.05910027 0 0.004809912" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0.2575713 0.00430871 0.02678174" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="WavesGradient" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Color_Mid" />
+							<attribute id="Value" type="fvec3" value="0.2575713 0.00430871 0.02678174" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0.03337252 0 0.001101739" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="WavesGradient" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Color_Max" />
+							<attribute id="Value" type="fvec3" value="0.03337252 0 0.001101739" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="03 Detail Normal" />
+							<attribute id="ParameterName" type="FixedString" value="DetailNormalStrength" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="10" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="03 Detail Normal" />
+							<attribute id="ParameterName" type="FixedString" value="DetailNormalTiling" />
+							<attribute id="Value" type="float" value="10" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="03 Detail Normal" />
+							<attribute id="ID" type="FixedString" value="efa350f0-7cfe-43f9-8485-c5e197863dfc" />
+							<attribute id="ParameterName" type="FixedString" value="DetailNormalMask" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="03 Detail Normal" />
+							<attribute id="ID" type="FixedString" value="8b42733e-91ef-d267-d846-124187296633" />
+							<attribute id="ParameterName" type="FixedString" value="DetailNormalMap" />
+						</node>
 					</children>
 				</node>
 			</children>
@@ -2357,6 +2468,19 @@
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" />
+					<attribute id="ID" type="FixedString" value="0512f492-675a-4904-9b53-fb75e5e82fb2" />
+					<attribute id="Name" type="LSString" value="HUM_F_NKD_Head_Orin_MSK2" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharedDev/Assets/Characters/_Models/Humans/HUM_F_ARM_Orin/Resources/HUM_F_NKD_Head_Orin_MSK2.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="HUM_F_NKD_Head_Orin_MSK2" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209013" />
 				</node>
 			</children>
 		</node>
